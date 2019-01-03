@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.xiguanying.top/"/>
-  <updated>2018-05-11T04:48:30.447Z</updated>
+  <updated>2019-01-03T09:11:22.938Z</updated>
   <id>http://www.xiguanying.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://www.xiguanying.top/%E4%BB%8E%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0App%E4%B8%8A%E7%BA%BF/"/>
     <id>http://www.xiguanying.top/从零基础到App上线/</id>
     <published>2018-04-28T11:56:57.000Z</published>
-    <updated>2018-05-11T04:48:30.447Z</updated>
+    <updated>2019-01-03T09:11:22.938Z</updated>
     
     <content type="html"><![CDATA[<script>    var xlm_wid='13061';    var xlm_url='http://www.xianliao.me/';</script><script type="text/javascript" charset="UTF-8" src="http://www.xianliao.me/embed.js"></script><h2 id="像素"><a href="#像素" class="headerlink" title="像素"></a>像素</h2><ul><li>px（Java代码）</li><li>dp（XML布局）</li><li>sp（字体）</li></ul><blockquote><p>dp与系统设置的字体大小无关，而sp会随系统字体大小变化</p><p>在XML布局文件中，为了让不同设备屏幕拥有统一的显示效果，除了sp用于设置文字的大小外，其余要用大小的地方都用dp。</p><p>在Java代码中情况又有所不同，Android用于设置大小的函数都以px为单位。要想在Java代码中使用dp设置布局大小或间距，得先把dp值转化成px值。</p></blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">dip2px</span><span class="params">(Context context, <span class="keyword">float</span> dpValue)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 获取当前手机的像素密度</span></span><br><span class="line">        <span class="keyword">final</span> <span class="keyword">float</span> scale = context.getResources().getDisplayMetrics().density;</span><br><span class="line">        <span class="keyword">return</span> (<span class="keyword">int</span>) (dpValue * scale + <span class="number">0.5f</span>); <span class="comment">// 四舍五入取整</span></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><a id="more"></a><h2 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h2><ul><li>六位十六进制数编码</li><li>八位十六进制数编码</li></ul><blockquote><p>例如八位编码FFEEDDCC，FF表示透明度（FF：完全不透明，00：完全透明），EE表示红色浓度，DD表示绿色浓度，CC表示蓝色浓度（RGB三色数值越大颜色越浓越亮，数值越小颜色越暗）<br>PS：亮到极致就是白色，暗到极致就是黑色<br>六位十六进制数编码在XML布局文件中默然不透明，在Java代码中默认透明<br>所以，在Java代码中不用六位十六进制数编码</p></blockquote><h3 id="使用十六进制数的颜色编码"><a href="#使用十六进制数的颜色编码" class="headerlink" title="使用十六进制数的颜色编码"></a>使用十六进制数的颜色编码</h3><blockquote><p>在XML布局文件中设置颜色需要在色值前面加上<code>#</code>，如：<code>android:textColor=&quot;#000000&quot;</code><br>在Java代码中设置颜色可以直接填八位十六进制数值，如：<code>setTextColor(0xff00ff00);</code>,也有其他方法，这里不再赘述</p></blockquote>]]></content>
     
@@ -46,6 +46,8 @@
 &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;dip2px&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(Context context, &lt;span class=&quot;keyword&quot;&gt;float&lt;/span&gt; dpValue)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;comment&quot;&gt;// 获取当前手机的像素密度&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;float&lt;/span&gt; scale = context.getResources().getDisplayMetrics().density;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;) (dpValue * scale + &lt;span class=&quot;number&quot;&gt;0.5f&lt;/span&gt;); &lt;span class=&quot;comment&quot;&gt;// 四舍五入取整&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
+    
+      <category term="体验感想集" scheme="http://www.xiguanying.top/categories/%E4%BD%93%E9%AA%8C%E6%84%9F%E6%83%B3%E9%9B%86/"/>
     
     
       <category term="Android" scheme="http://www.xiguanying.top/tags/Android/"/>
@@ -85,9 +87,9 @@
     <link href="http://www.xiguanying.top/%E6%B5%8B%E8%AF%95%E5%8A%9F%E8%83%BD/"/>
     <id>http://www.xiguanying.top/测试功能/</id>
     <published>2018-04-21T11:49:48.000Z</published>
-    <updated>2018-12-26T06:59:13.552Z</updated>
+    <updated>2019-01-03T09:19:29.119Z</updated>
     
-    <content type="html"><![CDATA[<h1 align="center">关于我</h1><img src="/测试功能/banner1.jpg"><p align="center">能让彼此优秀的感情，才值得被记得</p><a id="more"></a><script src="//player.polyv.net/script/polyvplayer.min.js"></script><div id="plv_74dbf2789596d0a626989dab6879a2ec_7"></div><script>var player = polyvObject('#plv_74dbf2789596d0a626989dab6879a2ec_7').videoPlayer({    'width':'970',  'height':'546',    'vid' : '74dbf2789596d0a626989dab6879a2ec_7' , 'forceH5':true });</script>]]></content>
+    <content type="html"><![CDATA[<h1 align="center">关于我</h1><img src="/测试功能/banner1.jpg"><p align="center">能让彼此优秀的感情，才值得被记得</p><a id="more"></a><script src="//player.polyv.net/script/polyvplayer.min.js"></script><div id="plv_74dbf2789596d0a626989dab6879a2ec_7"></div><script>var player = polyvObject('#plv_74dbf2789596d0a626989dab6879a2ec_7').videoPlayer({    'width':'756',  'height':'500',    'vid' : '74dbf2789596d0a626989dab6879a2ec_7' , 'forceH5':true });</script>]]></content>
     
     <summary type="html">
     
