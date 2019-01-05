@@ -116,7 +116,7 @@
 <meta property="og:site_name" content="Pioneer&#39;s Blog">
 <meta property="og:description" content="能让彼此优秀的感情，才值得被记得    习惯瘾   大学在读（计算机专业） 学习过Java、Android、Html 想做点项目，还在努力中……">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-05-11T04:51:48.742Z">
+<meta property="og:updated_time" content="2019-01-05T01:40:54.932Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Pioneer&#39;s Blog">
 <meta name="twitter:description" content="能让彼此优秀的感情，才值得被记得    习惯瘾   大学在读（计算机专业） 学习过Java、Android、Html 想做点项目，还在努力中……">
@@ -361,7 +361,7 @@
 <li>学习过Java、Android、Html</li>
 <li>想做点项目，还在努力中……</li>
 </ul>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=536622304&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=22463223&auto=1&height=66"></iframe>
         
       </div>
       
@@ -496,27 +496,38 @@
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
-                  <a href="https://github.com/xiguanying" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                    <span class="exturl" data-url="https://github.com/xiguanying" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</span>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="mailto:c.cao@foxmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                    <span class="exturl" data-url="mailto:c.cao@foxmail.com" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</span>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://plus.google.com/xxoo1212123" target="_blank" title="Google"><i class="fa fa-fw fa-google"></i>Google</a>
+                  
+                    <span class="exturl" data-url="https://xiguanying.blogspot.com" title="Blogspot"><i class="fa fa-fw fa-bold"></i>Blogspot</span>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="https://weibo.com/u/5020467438" target="_blank" title="微博"><i class="fa fa-fw fa-weibo"></i>微博</a>
+                  
+                    <span class="exturl" data-url="https://twitter.com/bigjjboy" title="Twitter"><i class="fa fa-fw fa-twitter"></i>Twitter</span>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="http://sighttp.qq.com/authd?IDKEY=ed46a3460aaccd80f0090f3d2a3c4596ceb7c9d8e98e3961" target="_blank" title="QQ"><i class="fa fa-fw fa-qq"></i>QQ</a>
+                  
+                    <span class="exturl" data-url="https://weibo.com/u/5020467438" title="微博"><i class="fa fa-fw fa-weibo"></i>微博</span>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                    <span class="exturl" data-url="http://sighttp.qq.com/authd?IDKEY=ed46a3460aaccd80f0090f3d2a3c4596ceb7c9d8e98e3961" title="QQ"><i class="fa fa-fw fa-qq"></i>QQ</span>
                   
                 </span>
               
@@ -743,25 +754,17 @@
 
 	
 
-		<script type="text/javascript">
-		_hcwp = window._hcwp || [];
 
-		_hcwp.push({widget:"Bloggerstream", widget_id: 103922, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
-		
 
-		(function() {
-		if("HC_LOAD_INIT" in window)return;
-		HC_LOAD_INIT = true;
-		var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
-		var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-		hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/103922/"+lang+"/widget.js";
-		var s = document.getElementsByTagName("script")[0];
-		s.parentNode.insertBefore(hcc, s.nextSibling);
-		})();
-		</script>
 
-	
+  
+
+
+
+
+
+  
 
 
 
@@ -770,9 +773,29 @@
 
 
 
-
-
-
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: true,
+        notify: true,
+        appId: '1q5wrsP6TFeHRHIvF3qEWSO3-gzGzoHsz',
+        appKey: 'qJzpd3LurJvg1YlPuY3qMAJC',
+        placeholder: '输入文字...',
+        avatar:'retro',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
