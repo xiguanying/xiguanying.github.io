@@ -5,9 +5,9 @@
   <subtitle>积跬步 至千里</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.xiguanying.top/"/>
+  <link href="http://www.xiguanying.cn/"/>
   <updated>2019-01-03T09:11:22.938Z</updated>
-  <id>http://www.xiguanying.top/</id>
+  <id>http://www.xiguanying.cn/</id>
   
   <author>
     <name>習慣癮</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>从零基础到App上线</title>
-    <link href="http://www.xiguanying.top/%E4%BB%8E%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0App%E4%B8%8A%E7%BA%BF/"/>
-    <id>http://www.xiguanying.top/从零基础到App上线/</id>
+    <link href="http://www.xiguanying.cn/%E4%BB%8E%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%88%B0App%E4%B8%8A%E7%BA%BF/"/>
+    <id>http://www.xiguanying.cn/从零基础到App上线/</id>
     <published>2018-04-28T11:56:57.000Z</published>
     <updated>2019-01-03T09:11:22.938Z</updated>
     
@@ -47,19 +47,19 @@
     
     </summary>
     
-      <category term="体验感想集" scheme="http://www.xiguanying.top/categories/%E4%BD%93%E9%AA%8C%E6%84%9F%E6%83%B3%E9%9B%86/"/>
+      <category term="体验感想集" scheme="http://www.xiguanying.cn/categories/%E4%BD%93%E9%AA%8C%E6%84%9F%E6%83%B3%E9%9B%86/"/>
     
     
-      <category term="Android" scheme="http://www.xiguanying.top/tags/Android/"/>
+      <category term="Android" scheme="http://www.xiguanying.cn/tags/Android/"/>
     
-      <category term="进阶" scheme="http://www.xiguanying.top/tags/%E8%BF%9B%E9%98%B6/"/>
+      <category term="进阶" scheme="http://www.xiguanying.cn/tags/%E8%BF%9B%E9%98%B6/"/>
     
   </entry>
   
   <entry>
     <title>一篇关于使用MIUI的感受</title>
-    <link href="http://www.xiguanying.top/%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8MIUI%E7%9A%84%E6%84%9F%E5%8F%97/"/>
-    <id>http://www.xiguanying.top/一篇关于使用MIUI的感受/</id>
+    <link href="http://www.xiguanying.cn/%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8MIUI%E7%9A%84%E6%84%9F%E5%8F%97/"/>
+    <id>http://www.xiguanying.cn/一篇关于使用MIUI的感受/</id>
     <published>2018-04-25T15:01:48.000Z</published>
     <updated>2018-04-28T10:01:03.792Z</updated>
     
@@ -73,19 +73,19 @@
     
     </summary>
     
-      <category term="体验感想集" scheme="http://www.xiguanying.top/categories/%E4%BD%93%E9%AA%8C%E6%84%9F%E6%83%B3%E9%9B%86/"/>
+      <category term="体验感想集" scheme="http://www.xiguanying.cn/categories/%E4%BD%93%E9%AA%8C%E6%84%9F%E6%83%B3%E9%9B%86/"/>
     
     
-      <category term="随笔" scheme="http://www.xiguanying.top/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.xiguanying.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
-      <category term="MIUI" scheme="http://www.xiguanying.top/tags/MIUI/"/>
+      <category term="MIUI" scheme="http://www.xiguanying.cn/tags/MIUI/"/>
     
   </entry>
   
   <entry>
     <title>测试功能</title>
-    <link href="http://www.xiguanying.top/%E6%B5%8B%E8%AF%95%E5%8A%9F%E8%83%BD/"/>
-    <id>http://www.xiguanying.top/测试功能/</id>
+    <link href="http://www.xiguanying.cn/%E6%B5%8B%E8%AF%95%E5%8A%9F%E8%83%BD/"/>
+    <id>http://www.xiguanying.cn/测试功能/</id>
     <published>2018-04-21T11:49:48.000Z</published>
     <updated>2019-01-03T09:19:29.119Z</updated>
     
@@ -100,23 +100,23 @@
     
     </summary>
     
-      <category term="功能测试集" scheme="http://www.xiguanying.top/categories/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%E9%9B%86/"/>
+      <category term="功能测试集" scheme="http://www.xiguanying.cn/categories/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%E9%9B%86/"/>
     
     
-      <category term="Markdown" scheme="http://www.xiguanying.top/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://www.xiguanying.cn/tags/Markdown/"/>
     
-      <category term="Hexo" scheme="http://www.xiguanying.top/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://www.xiguanying.cn/tags/Hexo/"/>
     
-      <category term="Next" scheme="http://www.xiguanying.top/tags/Next/"/>
+      <category term="Next" scheme="http://www.xiguanying.cn/tags/Next/"/>
     
-      <category term="GitHub Pages" scheme="http://www.xiguanying.top/tags/GitHub-Pages/"/>
+      <category term="GitHub Pages" scheme="http://www.xiguanying.cn/tags/GitHub-Pages/"/>
     
   </entry>
   
   <entry>
     <title>测试Markdown语法</title>
-    <link href="http://www.xiguanying.top/%E6%B5%8B%E8%AF%95Markdown%E8%AF%AD%E6%B3%95/"/>
-    <id>http://www.xiguanying.top/测试Markdown语法/</id>
+    <link href="http://www.xiguanying.cn/%E6%B5%8B%E8%AF%95Markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://www.xiguanying.cn/测试Markdown语法/</id>
     <published>2018-04-15T12:48:28.000Z</published>
     <updated>2018-04-25T15:27:21.222Z</updated>
     
@@ -132,16 +132,16 @@
     
     </summary>
     
-      <category term="功能测试集" scheme="http://www.xiguanying.top/categories/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%E9%9B%86/"/>
+      <category term="功能测试集" scheme="http://www.xiguanying.cn/categories/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%E9%9B%86/"/>
     
     
-      <category term="Markdown" scheme="http://www.xiguanying.top/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://www.xiguanying.cn/tags/Markdown/"/>
     
-      <category term="Hexo" scheme="http://www.xiguanying.top/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://www.xiguanying.cn/tags/Hexo/"/>
     
-      <category term="Next" scheme="http://www.xiguanying.top/tags/Next/"/>
+      <category term="Next" scheme="http://www.xiguanying.cn/tags/Next/"/>
     
-      <category term="GitHub Pages" scheme="http://www.xiguanying.top/tags/GitHub-Pages/"/>
+      <category term="GitHub Pages" scheme="http://www.xiguanying.cn/tags/GitHub-Pages/"/>
     
   </entry>
   
